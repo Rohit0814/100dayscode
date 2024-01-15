@@ -1,8 +1,4 @@
-/* universal selector
-element selector
-class selector
-id selector
-group selector */
+
 
 *{
     padding:0px;
@@ -49,3 +45,4 @@ h1{
     background-color: rgb(30, 30, 78);
     color:white;
 }
+
