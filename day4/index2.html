@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <!-- <link rel="stylesheet" href="day4\Style\style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#">Company</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <button  class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register
+                  </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Registration</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            
+
+        <form action=""method="">
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="Email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email Address">
+              </div>
+
+              <label for="inputPassword5" class="form-label">Password</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Password">
+
+                <label for="inputPassword5" class="form-label">Confirm Password</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Confirm Password">
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your HomeTown"></textarea>
+              </div>
+
+        </form>        
+    </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/TY/OY/EH/102316464/ecommerce-website-design.jpg" class="d-block w-100" alt="..." height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.sliderrevolution.com/wp-content/uploads/2023/06/ecommerce-website-templates.jpg" class="d-block w-100" alt="..." height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQmvZ51fwJLJaS0P8ZRTITiTBCjlbTrlAqA&usqp=CAU" class="d-block w-100" alt="..." height="400px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br><br>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="#">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7dxRt1Rg28JQeUMR4f-lJKDDiodkb6y44-oNskUrC9w&s" class="card-img-top" alt="..." height="200px" width="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Earphones</h5>
+                </div>
+              </div>
+              </a>
+          </div>
+          <div class="col">
+            <a href="#">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="..." height="200px" width="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Watch</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuRDgKiO7aU1d-ZT-y1sdrsVF82XswmSgAQWPOGNIgkg&s" class="card-img-top" alt="..." height="200px" width="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Camera</h5>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

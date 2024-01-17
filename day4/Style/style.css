@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.temp{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+table{
+    width:50%;
+    text-align: center;
+    height: 30px;
+}
+
+.heading{
+    background-color: black;
+    color:white;
+    font-size: 18px;
+}
+.heading th{
+    padding: 7px 0px;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(189, 255, 255);
+}
+
+table tr:hover{
+    background-color: rgb(255, 202, 202);
+}
+
+.navbar{
+    background-color: red;
+}
+
