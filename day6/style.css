@@ -1,0 +1,12 @@
+#custom-div{
+    width:20vw;
+    height: 20vh;
+    background: red;
+    color:white;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+
+}
