@@ -1,0 +1,23 @@
+
+:root{
+    --div-color : #ffabfc;
+    --div2-color: #6b8bff;
+}
+
+.super{
+    display: flex;
+}
+
+.outer{
+    width: 20%;
+    height: 500px;
+    background: var(--div-color); 
+    margin-right: 20px;
+}
+
+.outer-div{
+    width:20%;
+    height: 500px;
+    background: var(--div2-color);
+    margin-left: 20px;
+}
